@@ -1,0 +1,147 @@
+
+
+
+    body[data-theme='light'] {
+   
+      .search {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        padding: 10px 10px 10px 16px;
+        background-color: #FFF;
+        display: flex;
+        align-items: center;
+        box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+        border-radius: 15px;
+      
+        @media (min-width: 767px) {
+          padding: 10px 10px 10px 30px;
+        }
+      
+        &>button {
+          flex-shrink: 0;
+        }
+      }
+      
+      .label {
+        cursor: pointer;
+      }
+      
+      .textField {
+        padding: 0 10px;
+        flex-grow: 5;
+        height: 60px;
+        max-width: calc(100% - 100px - 20px);
+        border: none;
+        color:#2B3442;
+        font-size: 0.75rem;
+        line-height: 1.5;
+        cursor: pointer;
+        background-color: #fff;
+      
+        &::placeholder {
+          color: #4B6A9B;
+        }
+      
+        &:focus {
+          outline: none;
+        }
+      
+        @media (min-width: 767px) {
+          margin: 0 5px;
+          font-size: 1.25rem;
+          margin: 0 20px;
+        }
+      }
+      
+      .error {
+        position: absolute;
+        right: 50%;
+        bottom: 5px;
+        color: #F74646;
+        font-size: 1rem;
+        line-height: 1.5;
+        font-weight: 700;
+      
+        @media (min-width: 767px) {
+          right: 120px;
+          top: 50%;
+          transform: translateY(-50%);
+          bottom: unset;
+        }
+      }
+
+    }
+  
+    body[data-theme='dark'] {
+   
+      .search {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        padding: 10px 10px 10px 16px;
+        background-color: #1E2A47;
+        display: flex;
+        align-items: center;
+        box-shadow: unset;
+        border-radius: 15px;
+      
+        @media (min-width: 767px) {
+          padding: 10px 10px 10px 30px;
+        }
+      
+        &>button {
+          flex-shrink: 0;
+        }
+      }
+      
+      .label {
+        cursor: pointer;
+      }
+      
+      .textField {
+        padding: 0 10px;
+        flex-grow: 5;
+        height: 60px;
+        max-width: calc(100% - 100px - 20px);
+        border: none;
+        color: #fff;
+        font-size: 0.75rem;
+        line-height: 1.5;
+        cursor: pointer;
+        background-color: #1E2A47;
+      
+        &::placeholder {
+          color: #fff;
+        }
+      
+        &:focus {
+          outline: none;
+        }
+      
+        @media (min-width: 767px) {
+          margin: 0 5px;
+          font-size: 1.25rem;
+          margin: 0 20px;
+        }
+      }
+      
+      .error {
+        position: absolute;
+        right: 50%;
+        bottom: 5px;
+        color:#F74646;;
+        font-size: 1rem;
+        line-height: 1.5;
+        font-weight: 700;
+      
+        @media (min-width: 767px) {
+          right: 120px;
+          top: 50%;
+          transform: translateY(-50%);
+          bottom: unset;
+        }
+      }
+    }
+
+  

@@ -1,0 +1,31 @@
+{
+  "name": "react_starter_parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --no-minify --out-dir=build",
+    "start_t": "tsc --watch",
+    "component": "generate-react component"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.11.5",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "generate-react-cli": "^8.4.0",
+    "postcss": "^8.4.31",
+    "sass": "^1.69.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "components": "^0.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+   
+  },
+  "description": ""
+}

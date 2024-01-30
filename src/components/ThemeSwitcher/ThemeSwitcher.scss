@@ -1,0 +1,70 @@
+
+body[data-theme='light'] {
+   
+    .themeSwitcher {
+
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        cursor: pointer;
+    
+        span {
+            color:#697C9A;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+        }
+        svg {
+            fill: #697C9A;;
+        }
+    
+        &:hover {
+            span {
+                color: #2B3442;
+            }
+    
+            svg {
+                fill: #2B3442;
+            }
+        }
+    }
+    
+  }
+
+  body[data-theme='dark'] {
+
+  
+    .themeSwitcher {
+
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        cursor: pointer;
+    
+        span {
+            color:#fff;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+        }
+
+        svg {
+            fill: #fff;
+        }
+        &:hover {
+            span {
+                color: #697C9A;
+            }
+    
+            svg {
+                fill: #697C9A;
+            }
+        }
+    }
+    
+  }
+
+
+  
+ 
+ 

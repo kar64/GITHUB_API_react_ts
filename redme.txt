@@ -1,1 +1,72 @@
+npm install -g parcel-bundler
 
+
+npm init -y
+npm i react react-dom
+
+import React from 'react';
+import ReactDom from 'react-dom';
+
+"start": "parcel src/index.html --open",
+"build": "parcel build src/index.html --no-minify --out-dir=build"
+===================================
+npm i -D typescript
+
+Для решения проблемы необходимо запустить от имени администратора PowerShell: Set-ExecutionPolicy RemoteSigned
+./node_modules/.bin/tsc --init
+./node_modules/.bin/tsc --help
+
+tsconfig  
+{
+  "compilerOptions": {
+     "outDir": "dist", 
+  },
+  "include":["src"],
+  "exclude":["node_modules"]
+}
+
+ "start":"tsc --watch"
+ 
+ {
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["DOM", "ES2015", "ES2016", "ES2017"],
+    "outDir": "./public",
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
+============================
+https://github.com/arminbro/generate-react-cli
+  npx generate-react-cli component Box
+npm add -D generate-react-cli
+{
+  "usesTypeScript": true,
+  "usesCssModule": true,
+  "cssPreprocessor": "scss",
+  "testLibrary": "none",
+  "component": {
+    "default": {
+      "customTemplates": {
+        "component": "templates/TemplateName.tsx",
+        "style": "templates/TemplateName.scss",
+        "index":"templates/index.ts"
+       
+      },
+      "path": "src/components",
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": true,
+      "withTest": false,
+      "withIndex":true
+    }
+  },
+  "usesStyledComponents": true
+}
+  "scripts": {
+    "component":"generate-react component"
+  },
+  npm run component Com
+  ========================================

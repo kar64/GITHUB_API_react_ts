@@ -1,0 +1,44 @@
+
+
+
+    body[data-theme='light'] {
+     
+      .theHeader{
+        margin: 35px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+     
+    .logo {
+        color:#2B3442;
+        font-size: 1.75rem;
+        line-height: 1.5;
+        font-weight: 700;
+      }
+    
+
+    }
+  
+    body[data-theme='dark'] {
+     
+      .theHeader{
+        margin: 35px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+     
+    .logo {
+        color: #FFF;
+        font-size: 1.75rem;
+        line-height: 1.5;
+        font-weight: 700;
+      }
+    
+    }
+  
+  
+
+  
+ 

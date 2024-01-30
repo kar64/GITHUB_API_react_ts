@@ -1,0 +1,69 @@
+
+
+    body[data-theme='light'] {
+     
+      .userStat {
+        background-color: #F6F8FF;
+        color: #2B3442;
+        padding: 15px 32px;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+      
+      .info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      
+        &Title {
+          color: #4B6A9B;
+          font-size: 0.75rem;
+          line-height: 1.5;
+        }
+      
+        &Number {
+          font-size: 1.25rem;
+          line-height: 1.5;
+          font-weight: 700;
+        }
+      }
+    
+    
+    }
+  
+    body[data-theme='dark'] {
+      --stat-bg: var(--gray-500);
+      --stat-color: var(--white);
+      .userStat {
+        background-color:#141D2F;
+        color: #fff;
+        padding: 15px 32px;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+      
+      .info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      
+        &Title {
+          color: #4B6A9B;
+          font-size: 0.75rem;
+          line-height: 1.5;
+        }
+      
+        &Number {
+          font-size: 1.25rem;
+          line-height: 1.5;
+          font-weight: 700;
+        }
+      }
+    
+    
+    }
+  
+  
+  
